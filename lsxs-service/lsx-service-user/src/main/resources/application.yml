@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: lsx-service-user
+
+
+server:
+  port: 18300
+
+
+
+
+auth:
+  ttl: 3600 #token存储到redis的过期时间
+  clientId: lsx
+  #客户端密钥
+  clientSecret: lsxlsx
+  cookieDomain: localhost
+  cookieMaxAge: -1
+
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:18100/eureka/

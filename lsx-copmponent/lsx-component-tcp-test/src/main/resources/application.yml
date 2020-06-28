@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: lsx-component-tcp-test
+
+
+server:
+  port: 21000
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:18100/eureka/

@@ -1,0 +1,6 @@
+# Project exclude paths
+/lsx-common/target/
+/lsx-copmponent/lsx-component-tcp-test/target/
+/lsxs-service/lsx-service-user/target/
+/lsxs-service/lsxs-service-oauth-server/target/
+/lsxs_eureka/target/
