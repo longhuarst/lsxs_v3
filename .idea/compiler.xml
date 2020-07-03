@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lsxs_test" />
-        <module name="lsx-component-tcp-test" />
         <module name="lsxs-service-oauth-server" />
         <module name="lsx-service-user" />
-        <module name="lsxs_eureka" />
         <module name="lsx-common" />
+        <module name="lsxs_eureka" />
+        <module name="lsx-component-tcp-test" />
         <module name="lsxs-test-https" />
       </profile>
     </annotationProcessing>
